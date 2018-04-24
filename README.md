@@ -19,6 +19,7 @@ Posibles cambios de requerimiento:
 - DONE - Ventas por volumen: si el vendedor vende 2 productos, se le cobra fee por la orden más cara.
 
 @alvaro: Herramienta para manejo de fechas.
+
 @marcelo: generación de infraestructura para la fase3
 
 ## Fase 3
