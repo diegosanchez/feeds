@@ -4,7 +4,7 @@ El seller vende su producto luego recibimos una notificación para crear un carg
 
 El objetivo es saber cuanto debemos cobrarle al seller.
 
-## Fase 1 - DONE
+## Fase 1 - DONE
 
 Modelar el problema anterior desde la perspectiva de [DDD](https://en.wikipedia.org/wiki/Domain-driven_design)
 
