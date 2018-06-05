@@ -100,6 +100,6 @@ Buscamos evaluar cuales son los resultados de aplicar TDD vs Testing relevando v
 
 ###### Cambio req
 
-- El vendedor vendió un item cuyo precio es mayor a 1000 y el cargo es del %2.
-- El vendedor vendió n items y el cargo se calcula sobre el % 95 de la orden.  
-- El vendedor vendió 2 productos, se le cobra fee por la orden más cara.
+>> - El vendedor vendió un item cuyo precio es mayor a 1000 y el cargo es del %2.
+>> - El vendedor vendió n items y el cargo se calcula sobre el % 95 de la orden.  
+>> - El vendedor vendió 2 productos, se le cobra fee por la orden más cara.
