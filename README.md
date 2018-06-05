@@ -2,26 +2,104 @@
 
 El seller vende su producto luego recibimos una notificación para crear un cargo por venta de producto (Item, Shipping) el fee a cobrar es del % 3,5 del monto de la operación (venta).
 
-El objetivo es saber cuanto debemos cobrarle al seller.
+El objetivo es saber cuanto debemos cobrarle al seller en las siguientes situaciones:
 
-## Fase 1 - DONE
+1. El vendedor vendió una Item 100 con Shipping 100 y el cargo es sobre item + shipping. 
+2. El vendedor vendió una Item de más de 1000 pesos y el cargo es %2 sobre item.
+3. El vendedor vendió durante el black friday y el cargo de la primera unidad es % 5 del fee (%3.5), de la segunda unidad % 10 del fee, etc.
 
-Modelar el problema anterior desde la perspectiva de [DDD](https://en.wikipedia.org/wiki/Domain-driven_design)
+Buscamos evaluar cuales son los resultados de aplicar TDD vs Testing relevando ventajas e impedimentos impuestos por ambas técnicas.
 
-## Fase 2 
 
-Analizar como impactan los siguientes cambios de requerimiento a los efectos de saber si el problema es representativo.
 
-Posibles cambios de requerimiento:
-- DONE - Finde largo baja el fee de las dos primeras ventas: %5 la primera y %10 la segunda.
-- WIP - Dos ventas del seller en n horas => el fee de cada venta %5  
-- DONE - Cargo por item 
-- DONE - Ventas por volumen: si el vendedor vende 2 productos, se le cobra fee por la orden más cara.
 
-@alvaro: Herramienta para manejo de fechas.
-@marcelo: generación de infraestructura para #Fase3
 
-## Fase 3
 
-Sumar infraestructura para poder escribir las pruebas del servidor HTTP.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###### Cambio req
+
+- El vendedor vendió un item cuyo precio es mayor a 1000 y el cargo es del %2.
+- El vendedor vendió n items y el cargo se calcula sobre el % 95 de la orden.  
+- El vendedor vendió 2 productos, se le cobra fee por la orden más cara.
